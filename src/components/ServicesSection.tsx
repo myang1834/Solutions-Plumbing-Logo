@@ -1,5 +1,5 @@
 import React from 'react';
-import { DropletIcon, FlameIcon } from 'lucide-react';
+import { DropletIcon, FlameIcon, WrenchIcon } from 'lucide-react';
 export function ServicesSection() {
   return <section id="services" className="py-16 bg-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -54,7 +54,7 @@ export function ServicesSection() {
               </li>
             </ul>
             <div className="mt-6 text-center">
-              <a href="#plumbing" className="inline-block bg-blue-700 hover:bg-blue-800 text-white font-medium py-2 px-6 rounded-lg" aria-label="Learn more about plumbing services">
+              <a href="/plumbing-services" className="inline-block bg-blue-700 hover:bg-blue-800 text-white font-medium py-2 px-6 rounded-lg" aria-label="Learn more about plumbing services">
                 Learn More
               </a>
             </div>
@@ -62,7 +62,7 @@ export function ServicesSection() {
           {/* Gas Fitting Services */}
           <div className="bg-gray-50 rounded-lg p-8 shadow-sm hover:shadow-md transition-shadow">
             <div className="rounded-full bg-blue-100 w-16 h-16 flex items-center justify-center mb-6 mx-auto">
-              <div className="h-8 w-8 text-blue-800" aria-hidden="true" />
+              <WrenchIcon className="h-8 w-8 text-blue-800" aria-hidden="true" />
             </div>
             <h3 className="text-2xl font-bold text-blue-800 text-center mb-4">
               Gas Fitting
@@ -88,7 +88,7 @@ export function ServicesSection() {
               </li>
             </ul>
             <div className="mt-6 text-center">
-              <a href="#gas-fitting" className="inline-block bg-blue-700 hover:bg-blue-800 text-white font-medium py-2 px-6 rounded-lg" aria-label="Learn more about gas fitting services">
+              <a href="/gas-fitting-services" className="inline-block bg-blue-700 hover:bg-blue-800 text-white font-medium py-2 px-6 rounded-lg" aria-label="Learn more about gas fitting services">
                 Learn More
               </a>
             </div>
@@ -128,14 +128,14 @@ export function ServicesSection() {
               </li>
             </ul>
             <div className="mt-6 text-center">
-              <a href="#heating" className="inline-block bg-blue-700 hover:bg-blue-800 text-white font-medium py-2 px-6 rounded-lg" aria-label="Learn more about heating services">
+              <a href="/heating-services" className="inline-block bg-blue-700 hover:bg-blue-800 text-white font-medium py-2 px-6 rounded-lg" aria-label="Learn more about heating services">
                 Learn More
               </a>
             </div>
           </div>
         </div>
         <div className="mt-12 text-center">
-          <a href="#contact" className="inline-block bg-red-600 hover:bg-red-700 text-white font-bold py-3 px-8 rounded-lg" aria-label="Request a plumbing service">
+          <a href="/#contact" className="inline-block bg-red-600 hover:bg-red-700 text-white font-bold py-3 px-8 rounded-lg" aria-label="Request a plumbing service">
             Request a Service
           </a>
         </div>

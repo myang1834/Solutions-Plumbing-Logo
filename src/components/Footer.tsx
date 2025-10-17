@@ -91,7 +91,7 @@ export function Footer() {
             <p className="text-sm text-gray-300 mb-4">
               Available 24/7 for emergency plumbing services.
             </p>
-            <a href="#contact" className="inline-block bg-red-600 hover:bg-red-700 text-white font-bold py-2 px-4 rounded-lg">
+            <a href="/#contact" className="inline-block bg-red-600 hover:bg-red-700 text-white font-bold py-2 px-4 rounded-lg">
               Request Service
             </a>
           </div>

@@ -26,13 +26,13 @@ export function Navbar() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-20">
           <div className="flex-shrink-0">
-            <a href="#" aria-label="Solutions Plumbing Home">
-              <img src="/SolutionsPlumbingTransparentBG.png" alt="Solutions Plumbing Logo" className="h-16 w-auto" width="180" height="64" />
+            <a href="/" aria-label="Solutions Plumbing Home">
+              <img src="/SolutionsPlumbingTransparentBG.png" alt="Solutions Plumbing Logo" className="h-20 w-auto" width="225" height="80" />
             </a>
           </div>
           {/* Desktop menu */}
           <nav className="hidden md:flex space-x-8">
-            <a href="#" className="text-blue-800 hover:text-red-600 px-3 py-2 font-medium">
+            <a href="/" className="text-blue-800 hover:text-red-600 px-3 py-2 font-medium">
               Home
             </a>
             {/* Services Dropdown */}
@@ -42,24 +42,24 @@ export function Navbar() {
                 <ChevronDownIcon className="ml-1 h-4 w-4" />
               </button>
               {servicesDropdownOpen && <div className="absolute left-0 mt-1 w-48 bg-white rounded-md shadow-lg py-1 z-10">
-                  <a href="#services" className="block px-4 py-2 text-blue-800 hover:bg-gray-100 hover:text-red-600" onClick={() => setServicesDropdownOpen(false)}>
+                  <a href="/plumbing-services" className="block px-4 py-2 text-blue-800 hover:bg-gray-100 hover:text-red-600" onClick={() => setServicesDropdownOpen(false)}>
                     Plumbing
                   </a>
-                  <a href="#services" className="block px-4 py-2 text-blue-800 hover:bg-gray-100 hover:text-red-600" onClick={() => setServicesDropdownOpen(false)}>
+                  <a href="/gas-fitting-services" className="block px-4 py-2 text-blue-800 hover:bg-gray-100 hover:text-red-600" onClick={() => setServicesDropdownOpen(false)}>
                     Gas Fitting
                   </a>
-                  <a href="#services" className="block px-4 py-2 text-blue-800 hover:bg-gray-100 hover:text-red-600" onClick={() => setServicesDropdownOpen(false)}>
+                  <a href="/heating-services" className="block px-4 py-2 text-blue-800 hover:bg-gray-100 hover:text-red-600" onClick={() => setServicesDropdownOpen(false)}>
                     Heating
                   </a>
                 </div>}
             </div>
-            <a href="#about" className="text-blue-800 hover:text-red-600 px-3 py-2 font-medium">
+            <a href="/#about" className="text-blue-800 hover:text-red-600 px-3 py-2 font-medium">
               About
             </a>
-            <a href="#contact" className="text-blue-800 hover:text-red-600 px-3 py-2 font-medium">
+            <a href="/#contact" className="text-blue-800 hover:text-red-600 px-3 py-2 font-medium">
               Contact
             </a>
-            <a href="#testimonials" className="text-blue-800 hover:text-red-600 px-3 py-2 font-medium">
+            <a href="/#testimonials" className="text-blue-800 hover:text-red-600 px-3 py-2 font-medium">
               Testimonials
             </a>
           </nav>
@@ -73,7 +73,7 @@ export function Navbar() {
       {/* Mobile menu */}
       {isOpen && <div className="md:hidden">
           <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3 bg-white">
-            <a href="#" className="block px-3 py-2 text-blue-800 hover:text-red-600 font-medium" onClick={toggleMenu}>
+            <a href="/" className="block px-3 py-2 text-blue-800 hover:text-red-600 font-medium" onClick={toggleMenu}>
               Home
             </a>
             {/* Mobile Services Dropdown */}
@@ -83,24 +83,24 @@ export function Navbar() {
                 <ChevronDownIcon className="ml-1 h-4 w-4" />
               </button>
               {servicesDropdownOpen && <div className="pl-6 space-y-1">
-                  <a href="#services" className="block px-3 py-2 text-blue-800 hover:text-red-600" onClick={toggleMenu}>
+                  <a href="/plumbing-services" className="block px-3 py-2 text-blue-800 hover:text-red-600" onClick={toggleMenu}>
                     Plumbing
                   </a>
-                  <a href="#services" className="block px-3 py-2 text-blue-800 hover:text-red-600" onClick={toggleMenu}>
+                  <a href="/gas-fitting-services" className="block px-3 py-2 text-blue-800 hover:text-red-600" onClick={toggleMenu}>
                     Gas Fitting
                   </a>
-                  <a href="#services" className="block px-3 py-2 text-blue-800 hover:text-red-600" onClick={toggleMenu}>
+                  <a href="/heating-services" className="block px-3 py-2 text-blue-800 hover:text-red-600" onClick={toggleMenu}>
                     Heating
                   </a>
                 </div>}
             </div>
-            <a href="#about" className="block px-3 py-2 text-blue-800 hover:text-red-600 font-medium" onClick={toggleMenu}>
+            <a href="/#about" className="block px-3 py-2 text-blue-800 hover:text-red-600 font-medium" onClick={toggleMenu}>
               About
             </a>
-            <a href="#contact" className="block px-3 py-2 text-blue-800 hover:text-red-600 font-medium" onClick={toggleMenu}>
+            <a href="/#contact" className="block px-3 py-2 text-blue-800 hover:text-red-600 font-medium" onClick={toggleMenu}>
               Contact
             </a>
-            <a href="#testimonials" className="block px-3 py-2 text-blue-800 hover:text-red-600 font-medium" onClick={toggleMenu}>
+            <a href="/#testimonials" className="block px-3 py-2 text-blue-800 hover:text-red-600 font-medium" onClick={toggleMenu}>
               Testimonials
             </a>
           </div>

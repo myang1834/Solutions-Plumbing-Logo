@@ -13,25 +13,25 @@ export function HeroSection() {
               services for residential and commercial properties.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
-              <a href="#contact" className="inline-block bg-red-600 hover:bg-red-700 text-white font-bold py-3 px-6 rounded-lg text-center">
+              <a href="#contact" className="inline-block bg-red-600 hover:bg-red-700 text-white font-bold py-3 px-6 rounded-lg text-center" aria-label="Request plumbing service">
                 Request Service
               </a>
-              <a href="tel:555-123-4567" className="inline-flex items-center justify-center bg-white hover:bg-gray-100 text-blue-800 font-bold py-3 px-6 rounded-lg text-center">
-                <PhoneIcon className="mr-2 h-5 w-5" />
+              <a href="tel:555-123-4567" className="inline-flex items-center justify-center bg-white hover:bg-gray-100 text-blue-800 font-bold py-3 px-6 rounded-lg text-center" aria-label="Call our plumbing service">
+                <PhoneIcon className="mr-2 h-5 w-5" aria-hidden="true" />
                 555-123-4567
               </a>
             </div>
           </div>
           <div className="flex justify-center">
             <div className="relative">
-              <div className="absolute inset-0 bg-white opacity-85 blur-lg rounded-full"></div>
-              <img src="/SolutionsPlumbingTransparentBG.png" alt="Solutions Plumbing" className="relative max-h-72 w-auto drop-shadow-lg" />
+              <div className="absolute inset-0 bg-white opacity-85 blur-lg rounded-full" aria-hidden="true"></div>
+              <img src="/SolutionsPlumbingTransparentBG.png" alt="Solutions Plumbing Logo" className="relative max-h-72 w-auto drop-shadow-lg" loading="eager" width="300" height="200" />
             </div>
           </div>
         </div>
       </div>
       <div className="absolute bottom-0 left-0 right-0 h-16 bg-white" style={{
       clipPath: 'polygon(0 100%, 100% 100%, 100% 0)'
-    }}></div>
+    }} aria-hidden="true"></div>
     </section>;
 }

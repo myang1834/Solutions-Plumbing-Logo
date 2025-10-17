@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { lazy } from 'react';
 import { CheckCircleIcon } from 'lucide-react';
 export function AboutSection() {
   return <section id="about" className="py-16 bg-gray-50">
@@ -23,25 +23,25 @@ export function AboutSection() {
             </p>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
               <div className="flex items-start">
-                <CheckCircleIcon className="h-6 w-6 text-red-600 mr-2 flex-shrink-0" />
+                <CheckCircleIcon className="h-6 w-6 text-red-600 mr-2 flex-shrink-0" aria-hidden="true" />
                 <span className="text-gray-700">Licensed & Insured</span>
               </div>
               <div className="flex items-start">
-                <CheckCircleIcon className="h-6 w-6 text-red-600 mr-2 flex-shrink-0" />
+                <CheckCircleIcon className="h-6 w-6 text-red-600 mr-2 flex-shrink-0" aria-hidden="true" />
                 <span className="text-gray-700">24/7 Emergency Service</span>
               </div>
               <div className="flex items-start">
-                <CheckCircleIcon className="h-6 w-6 text-red-600 mr-2 flex-shrink-0" />
+                <CheckCircleIcon className="h-6 w-6 text-red-600 mr-2 flex-shrink-0" aria-hidden="true" />
                 <span className="text-gray-700">Free Estimates</span>
               </div>
               <div className="flex items-start">
-                <CheckCircleIcon className="h-6 w-6 text-red-600 mr-2 flex-shrink-0" />
+                <CheckCircleIcon className="h-6 w-6 text-red-600 mr-2 flex-shrink-0" aria-hidden="true" />
                 <span className="text-gray-700">Satisfaction Guaranteed</span>
               </div>
             </div>
           </div>
           <div className="bg-white p-6 rounded-lg shadow-md">
-            <img src="https://images.unsplash.com/photo-1581578731548-c64695cc6952?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80" alt="Professional plumber at work" className="w-full h-auto rounded-lg" />
+            <img src="https://images.unsplash.com/photo-1581578731548-c64695cc6952?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80" alt="Professional plumber working on pipes" className="w-full h-auto rounded-lg" loading="lazy" width="600" height="400" />
           </div>
         </div>
       </div>

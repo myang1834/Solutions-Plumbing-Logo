@@ -16,35 +16,45 @@ export function ServicesSection() {
           {/* Plumbing Services */}
           <div className="bg-gray-50 rounded-lg p-8 shadow-sm hover:shadow-md transition-shadow">
             <div className="rounded-full bg-blue-100 w-16 h-16 flex items-center justify-center mb-6 mx-auto">
-              <DropletIcon className="h-8 w-8 text-blue-800" />
+              <DropletIcon className="h-8 w-8 text-blue-800" aria-hidden="true" />
             </div>
             <h3 className="text-2xl font-bold text-blue-800 text-center mb-4">
               Plumbing
             </h3>
             <ul className="space-y-2 text-gray-700">
               <li className="flex items-start">
-                <span className="text-red-600 mr-2">•</span>
+                <span className="text-red-600 mr-2" aria-hidden="true">
+                  •
+                </span>
                 <span>Leak detection & repair</span>
               </li>
               <li className="flex items-start">
-                <span className="text-red-600 mr-2">•</span>
+                <span className="text-red-600 mr-2" aria-hidden="true">
+                  •
+                </span>
                 <span>Fixture installation</span>
               </li>
               <li className="flex items-start">
-                <span className="text-red-600 mr-2">•</span>
+                <span className="text-red-600 mr-2" aria-hidden="true">
+                  •
+                </span>
                 <span>Whole house repiping</span>
               </li>
               <li className="flex items-start">
-                <span className="text-red-600 mr-2">•</span>
+                <span className="text-red-600 mr-2" aria-hidden="true">
+                  •
+                </span>
                 <span>New construction plumbing</span>
               </li>
               <li className="flex items-start">
-                <span className="text-red-600 mr-2">•</span>
+                <span className="text-red-600 mr-2" aria-hidden="true">
+                  •
+                </span>
                 <span>Kitchen and bathroom remodel</span>
               </li>
             </ul>
             <div className="mt-6 text-center">
-              <a href="#plumbing" className="inline-block bg-blue-700 hover:bg-blue-800 text-white font-medium py-2 px-6 rounded-lg">
+              <a href="#plumbing" className="inline-block bg-blue-700 hover:bg-blue-800 text-white font-medium py-2 px-6 rounded-lg" aria-label="Learn more about plumbing services">
                 Learn More
               </a>
             </div>
@@ -52,27 +62,33 @@ export function ServicesSection() {
           {/* Gas Fitting Services */}
           <div className="bg-gray-50 rounded-lg p-8 shadow-sm hover:shadow-md transition-shadow">
             <div className="rounded-full bg-blue-100 w-16 h-16 flex items-center justify-center mb-6 mx-auto">
-              <FlameIcon className="h-8 w-8 text-blue-800" />
+              <div className="h-8 w-8 text-blue-800" aria-hidden="true" />
             </div>
             <h3 className="text-2xl font-bold text-blue-800 text-center mb-4">
               Gas Fitting
             </h3>
             <ul className="space-y-2 text-gray-700">
               <li className="flex items-start">
-                <span className="text-red-600 mr-2">•</span>
+                <span className="text-red-600 mr-2" aria-hidden="true">
+                  •
+                </span>
                 <span>Gas line installation & repair</span>
               </li>
               <li className="flex items-start">
-                <span className="text-red-600 mr-2">•</span>
+                <span className="text-red-600 mr-2" aria-hidden="true">
+                  •
+                </span>
                 <span>Appliance hookups</span>
               </li>
               <li className="flex items-start">
-                <span className="text-red-600 mr-2">•</span>
+                <span className="text-red-600 mr-2" aria-hidden="true">
+                  •
+                </span>
                 <span>Safety inspections</span>
               </li>
             </ul>
             <div className="mt-6 text-center">
-              <a href="#gas-fitting" className="inline-block bg-blue-700 hover:bg-blue-800 text-white font-medium py-2 px-6 rounded-lg">
+              <a href="#gas-fitting" className="inline-block bg-blue-700 hover:bg-blue-800 text-white font-medium py-2 px-6 rounded-lg" aria-label="Learn more about gas fitting services">
                 Learn More
               </a>
             </div>
@@ -80,38 +96,46 @@ export function ServicesSection() {
           {/* Heating Services */}
           <div className="bg-gray-50 rounded-lg p-8 shadow-sm hover:shadow-md transition-shadow">
             <div className="rounded-full bg-blue-100 w-16 h-16 flex items-center justify-center mb-6 mx-auto">
-              <FlameIcon className="h-8 w-8 text-blue-800" />
+              <FlameIcon className="h-8 w-8 text-blue-800" aria-hidden="true" />
             </div>
             <h3 className="text-2xl font-bold text-blue-800 text-center mb-4">
               Heating
             </h3>
             <ul className="space-y-2 text-gray-700">
               <li className="flex items-start">
-                <span className="text-red-600 mr-2">•</span>
+                <span className="text-red-600 mr-2" aria-hidden="true">
+                  •
+                </span>
                 <span>Boiler installation & repair</span>
               </li>
               <li className="flex items-start">
-                <span className="text-red-600 mr-2">•</span>
+                <span className="text-red-600 mr-2" aria-hidden="true">
+                  •
+                </span>
                 <span>Baseboard/Radiator heat installation</span>
               </li>
               <li className="flex items-start">
-                <span className="text-red-600 mr-2">•</span>
+                <span className="text-red-600 mr-2" aria-hidden="true">
+                  •
+                </span>
                 <span>Water heater replacement & repair</span>
               </li>
               <li className="flex items-start">
-                <span className="text-red-600 mr-2">•</span>
+                <span className="text-red-600 mr-2" aria-hidden="true">
+                  •
+                </span>
                 <span>Gas heating system maintenance</span>
               </li>
             </ul>
             <div className="mt-6 text-center">
-              <a href="#heating" className="inline-block bg-blue-700 hover:bg-blue-800 text-white font-medium py-2 px-6 rounded-lg">
+              <a href="#heating" className="inline-block bg-blue-700 hover:bg-blue-800 text-white font-medium py-2 px-6 rounded-lg" aria-label="Learn more about heating services">
                 Learn More
               </a>
             </div>
           </div>
         </div>
         <div className="mt-12 text-center">
-          <a href="#contact" className="inline-block bg-red-600 hover:bg-red-700 text-white font-bold py-3 px-8 rounded-lg">
+          <a href="#contact" className="inline-block bg-red-600 hover:bg-red-700 text-white font-bold py-3 px-8 rounded-lg" aria-label="Request a plumbing service">
             Request a Service
           </a>
         </div>

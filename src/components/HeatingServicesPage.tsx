@@ -7,7 +7,7 @@ export function HeatingServicesPage() {
       icon: FlameIcon,
       title: "Boiler Installation & Repair",
       description: "Professional installation and repair of residential and commercial boilers with expert maintenance services.",
-      image: "https://images.unsplash.com/photo-1558618047-3c8c76ca7d13?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+      image: "/water heater.jpg",
       features: [
         "New boiler installation",
         "Boiler repair and maintenance",
@@ -20,7 +20,7 @@ export function HeatingServicesPage() {
       icon: HomeIcon,
       title: "Baseboard & Radiator Heat Installation",
       description: "Expert installation and maintenance of baseboard heaters and radiator systems for efficient home heating.",
-      image: "https://images.unsplash.com/photo-1581578731548-c64695cc6952?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+      image: "/radiator.jpg",
       features: [
         "Baseboard heater installation",
         "Radiator system installation",
@@ -33,7 +33,7 @@ export function HeatingServicesPage() {
       icon: WrenchIcon,
       title: "Water Heater Replacement & Repair",
       description: "Complete water heater services including installation, replacement, and repair of all types of water heaters.",
-      image: "https://images.unsplash.com/photo-1504307651254-35680f356dfd?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+      image: "/water heater replacement.jpg",
       features: [
         "Tank and tankless water heater installation",
         "Water heater replacement services",
@@ -46,7 +46,7 @@ export function HeatingServicesPage() {
       icon: ShieldIcon,
       title: "Gas Heating System Maintenance",
       description: "Comprehensive maintenance and repair services for gas heating systems to ensure optimal performance and safety.",
-      image: "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+      image: "/gas heating system.png",
       features: [
         "Annual heating system tune-ups",
         "Gas furnace maintenance",

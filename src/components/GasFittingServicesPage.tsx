@@ -3,11 +3,11 @@ import { CheckCircleIcon, WrenchIcon, FlameIcon, HomeIcon, ShieldIcon, ZapIcon }
 
 export function GasFittingServicesPage() {
   const services = [
-    {
-      icon: FlameIcon,
-      title: "Gas Line Installation & Repair",
-      description: "Professional installation and repair of gas lines for residential and commercial properties with safety as our top priority.",
-      image: "https://images.unsplash.com/photo-1558618047-3c8c76ca7d13?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+        {
+          icon: FlameIcon,
+          title: "Gas Line Installation & Repair",
+          description: "Professional installation and repair of gas lines for residential and commercial properties with safety as our top priority.",
+          image: "/gas line install.webp",
       features: [
         "New gas line installation",
         "Gas line repair and replacement",
@@ -15,11 +15,11 @@ export function GasFittingServicesPage() {
       ],
       benefits: "Professional gas line installation and repair services for safe and reliable gas delivery."
     },
-    {
-      icon: WrenchIcon,
-      title: "Appliance Hookups",
-      description: "Expert installation and connection of gas appliances including water heaters, furnaces, stoves, and dryers.",
-      image: "https://images.unsplash.com/photo-1581578731548-c64695cc6952?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+        {
+          icon: WrenchIcon,
+          title: "Appliance Hookups",
+          description: "Expert installation and connection of gas appliances including water heaters, furnaces, stoves, and dryers.",
+          image: "/stove install.jpg",
       features: [
         "Water heater gas connections",
         "Furnace and boiler hookups",
@@ -27,11 +27,11 @@ export function GasFittingServicesPage() {
       ],
       benefits: "Expert gas appliance connections for optimal performance and safety of your equipment."
     },
-    {
-      icon: ShieldIcon,
-      title: "Safety Inspections",
-      description: "Comprehensive gas safety inspections to identify potential hazards and ensure your gas system meets all safety standards.",
-      image: "https://images.unsplash.com/photo-1504307651254-35680f356dfd?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+        {
+          icon: ShieldIcon,
+          title: "Safety Inspections",
+          description: "Comprehensive gas safety inspections to identify potential hazards and ensure your gas system meets all safety standards.",
+          image: "/safety.jpg",
       features: [
         "Gas leak detection",
         "Appliance safety checks",

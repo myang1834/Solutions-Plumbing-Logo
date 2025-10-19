@@ -8,20 +8,20 @@ export function ServicesSection() {
             Our Services
           </h2>
           <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-            Solutions Plumbing offers comprehensive plumbing, gas fitting, and
-            heating services for residential and commercial properties.
+            Expert plumbing contractor offering emergency plumbing, gas fitting, and
+            heating services for Melrose, Boston, Malden, and throughout Massachusetts. Licensed and insured.
           </p>
         </div>
         <div className="grid md:grid-cols-3 gap-8">
           {/* Plumbing Services */}
-          <div className="bg-gray-50 rounded-lg p-8 shadow-sm hover:shadow-md transition-shadow">
+          <div className="bg-gray-50 rounded-lg p-8 shadow-sm hover:shadow-md transition-shadow flex flex-col">
             <div className="rounded-full bg-blue-100 w-16 h-16 flex items-center justify-center mb-6 mx-auto">
               <DropletIcon className="h-8 w-8 text-blue-800" aria-hidden="true" />
             </div>
             <h3 className="text-2xl font-bold text-blue-800 text-center mb-4">
-              Plumbing
+              Plumbing Services
             </h3>
-            <ul className="space-y-2 text-gray-700">
+            <ul className="space-y-2 text-gray-700 flex-grow">
               <li className="flex items-start">
                 <span className="text-red-600 mr-2" aria-hidden="true">
                   •
@@ -60,14 +60,14 @@ export function ServicesSection() {
             </div>
           </div>
           {/* Gas Fitting Services */}
-          <div className="bg-gray-50 rounded-lg p-8 shadow-sm hover:shadow-md transition-shadow">
+          <div className="bg-gray-50 rounded-lg p-8 shadow-sm hover:shadow-md transition-shadow flex flex-col">
             <div className="rounded-full bg-blue-100 w-16 h-16 flex items-center justify-center mb-6 mx-auto">
               <WrenchIcon className="h-8 w-8 text-blue-800" aria-hidden="true" />
             </div>
             <h3 className="text-2xl font-bold text-blue-800 text-center mb-4">
-              Gas Fitting
+              Gas Fitting Services
             </h3>
-            <ul className="space-y-2 text-gray-700">
+            <ul className="space-y-2 text-gray-700 flex-grow">
               <li className="flex items-start">
                 <span className="text-red-600 mr-2" aria-hidden="true">
                   •
@@ -94,14 +94,14 @@ export function ServicesSection() {
             </div>
           </div>
           {/* Heating Services */}
-          <div className="bg-gray-50 rounded-lg p-8 shadow-sm hover:shadow-md transition-shadow">
+          <div className="bg-gray-50 rounded-lg p-8 shadow-sm hover:shadow-md transition-shadow flex flex-col">
             <div className="rounded-full bg-blue-100 w-16 h-16 flex items-center justify-center mb-6 mx-auto">
               <FlameIcon className="h-8 w-8 text-blue-800" aria-hidden="true" />
             </div>
             <h3 className="text-2xl font-bold text-blue-800 text-center mb-4">
-              Heating
+              Heating Services
             </h3>
-            <ul className="space-y-2 text-gray-700">
+            <ul className="space-y-2 text-gray-700 flex-grow">
               <li className="flex items-start">
                 <span className="text-red-600 mr-2" aria-hidden="true">
                   •

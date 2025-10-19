@@ -6,18 +6,17 @@ export function AboutSection() {
         <div className="grid md:grid-cols-2 gap-12 items-center">
           <div>
             <h2 className="text-3xl md:text-4xl font-bold text-blue-800 mb-6">
-              About Solutions Plumbing
+              Melrose Plumber | Trusted Plumbing Services in Greater Boston
             </h2>
             <p className="text-gray-700 mb-6">
-              Solutions Plumbing is a trusted provider of comprehensive
-              plumbing, gas fitting, and heating services. With years of
-              experience in the industry, our team of licensed professionals is
-              dedicated to delivering top-quality workmanship and exceptional
-              customer service.
+              Solutions Plumbing is Melrose's premier plumbing contractor, specializing in
+              emergency plumbing, gas fitting, and heating services. With years of
+              experience serving Greater Boston, Malden, and all of Massachusetts, our licensed plumbers provide
+              top-quality workmanship and exceptional customer service throughout the region.
             </p>
             <p className="text-gray-700 mb-8">
-              Whether you need emergency repairs, routine maintenance, or
-              installation services, we have the expertise and equipment to
+              From emergency plumbing repairs in Melrose to new construction plumbing in Boston, we provide comprehensive plumbing services, routine maintenance, and
+              installation services. Our expert plumbers have the skills and equipment to
               handle projects of any size. We take pride in our attention to
               detail and commitment to using only the highest quality materials.
             </p>
@@ -41,7 +40,7 @@ export function AboutSection() {
             </div>
           </div>
           <div className="bg-white p-6 rounded-lg shadow-md">
-            <img src="https://images.unsplash.com/photo-1581578731548-c64695cc6952?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80" alt="Professional plumber working on pipes" className="w-full h-auto rounded-lg" loading="lazy" width="600" height="400" />
+            <img src="/plumbing.jpg" alt="Professional plumber working on pipes" className="w-full h-auto rounded-lg" loading="lazy" width="600" height="400" />
           </div>
         </div>
       </div>

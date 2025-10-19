@@ -8,8 +8,8 @@ export function ContactSection() {
             Contact Us
           </h2>
           <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-            Have a plumbing emergency or need to schedule a service? Get in
-            touch with our team today.
+            Need an emergency plumber in Melrose, Boston, or anywhere in Massachusetts? 
+            Call our licensed plumbers today for fast, reliable emergency plumbing service.
           </p>
         </div>
         <div className="grid md:grid-cols-2 gap-12">

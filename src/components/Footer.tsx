@@ -5,7 +5,10 @@ export function Footer() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <div className="grid md:grid-cols-4 gap-8">
           <div>
-            <img src="/SolutionsPlumbingTransparentBG.png" alt="Solutions Plumbing Logo" className="h-16 w-auto mb-4" />
+            <div className="relative inline-block mb-4">
+              <div className="absolute inset-0 bg-white rounded-full"></div>
+              <img src="/SolutionsPlumbingTransparentBG.png" alt="Solutions Plumbing Logo" className="relative h-16 w-auto" />
+            </div>
             <p className="text-gray-300 mb-4">
               Your trusted partner for all plumbing, gas fitting, and heating
               solutions.
@@ -110,6 +113,14 @@ export function Footer() {
               Terms of Service
             </a>
           </p>
+          <div className="mt-4 text-white">
+            <p className="text-xl font-medium">Made by Pagoda</p>
+            <p className="text-sm">
+              <a href="https://www.getpagoda.com" target="_blank" rel="noopener noreferrer" className="hover:text-gray-300">
+                W W W . G E T P A G O D A . C O M
+              </a>
+            </p>
+          </div>
         </div>
       </div>
     </footer>;

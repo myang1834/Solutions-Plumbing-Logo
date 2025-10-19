@@ -9,8 +9,8 @@ export function HeroSection() {
               Professional Plumbing Solutions For Your Home
             </h1>
             <p className="text-2xl mb-8">
-              Reliable, efficient, and quality plumbing, gas, and heating
-              services for residential and commercial properties.
+              Licensed plumber serving Melrose, Boston, Malden, and Greater Boston area. 
+              Expert plumbing, gas fitting, and heating services.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <a href="/#contact" className="inline-block bg-red-600 hover:bg-red-700 text-white font-bold py-3 px-6 rounded-lg text-center" aria-label="Request plumbing service">

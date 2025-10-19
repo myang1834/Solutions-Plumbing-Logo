@@ -3,11 +3,11 @@ import { CheckCircleIcon, WrenchIcon, DropletsIcon, HomeIcon, HammerIcon, BathIc
 
 export function PlumbingServicesPage() {
   const services = [
-    {
-      icon: DropletsIcon,
-      title: "Leak Detection & Repair",
-      description: "Our advanced leak detection technology helps us quickly identify and repair leaks before they cause extensive damage to your property.",
-      image: "https://images.unsplash.com/photo-1581578731548-c64695cc6952?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+        {
+          icon: DropletsIcon,
+          title: "Leak Detection & Repair",
+          description: "Our advanced leak detection technology helps us quickly identify and repair leaks before they cause extensive damage to your property.",
+          image: "/leak detection.jpg",
       features: [
         "Advanced electronic leak detection equipment",
         "Non-invasive detection methods",
@@ -17,9 +17,9 @@ export function PlumbingServicesPage() {
     },
     {
       icon: WrenchIcon,
-      title: "Fixture Installation",
-      description: "Professional installation of all types of plumbing fixtures including faucets, toilets, sinks, and more with warranty protection.",
-      image: "https://images.unsplash.com/photo-1581578731548-c64695cc6952?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+          title: "Fixture Installation",
+          description: "Professional installation of all types of plumbing fixtures including faucets, toilets, sinks, and more with warranty protection.",
+          image: "/fixture install.webp",
       features: [
         "Faucet and sink installation",
         "Toilet installation and replacement",
@@ -29,9 +29,9 @@ export function PlumbingServicesPage() {
     },
     {
       icon: HomeIcon,
-      title: "Whole House Repiping",
-      description: "Complete repiping services for older homes or properties with outdated plumbing systems using modern, durable materials.",
-      image: "https://images.unsplash.com/photo-1504307651254-35680f356dfd?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+          title: "Whole House Repiping",
+          description: "Complete repiping services for older homes or properties with outdated plumbing systems using modern, durable materials.",
+          image: "/repiping.jpeg",
       features: [
         "Copper and PEX piping options",
         "Minimal disruption installation",
